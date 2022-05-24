@@ -1,0 +1,26 @@
+.items {
+  padding: 3px;
+  background-color: brown;
+  color: white;
+  margin: 2px;
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+  align-self: center;
+}
+.buttonChange {
+  width: 25px;
+  height: 25px;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#button-shop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
