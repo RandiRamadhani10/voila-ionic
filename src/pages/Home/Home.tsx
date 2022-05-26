@@ -17,30 +17,34 @@ const Home: React.FC = () => {
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonButton id="order" color="success" routerLink="./order">
-                <p style={{ color: "white" }}>Order</p>
-              </IonButton>
+              <a id="order" href="./order">
+                <IonImg id="img" src="https://pic.onlinewebfonts.com/svg/img_122138.png" alt="" />
+                <span>Order</span>
+              </a>
             </IonCol>
             <IonCol>
-              <IonButton id="order" color="warning" routerLink="./history">
-                <p style={{ color: "white" }}>History</p>
-              </IonButton>
+              <a id="history" href="./history">
+                <IonImg id="img" src="https://pic.onlinewebfonts.com/svg/img_190848.png" alt="" />
+                <span>History</span>
+              </a>
             </IonCol>
           </IonRow>
           <IonRow>
             <IonCol>
-              <IonButton id="order" color="danger" routerLink="./outlet">
-                <p>Outlet</p>
-              </IonButton>
+              <a id="outlet" href="./outlet">
+                <IonImg id="img" src="https://pic.onlinewebfonts.com/svg/img_466233.png" alt="" />
+                <span>Outlet</span>
+              </a>
             </IonCol>
             <IonCol>
-              <IonButton id="order" routerLink="./accountsetting">
-                <p>Account</p>
-              </IonButton>
+              <a id="account" href="./settingaccount">
+                <IonImg id="img" src="https://pic.onlinewebfonts.com/svg/img_242.png" alt="" />
+                <span>Account</span>
+              </a>
             </IonCol>
           </IonRow>
         </IonGrid>
-        <IonGrid class="ion-text-center">
+        {/* <IonGrid class="ion-text-center">
           <IonCard style={{ width: "90%" }} class="ion-text-center">
             <IonCol class="ion-text-center">
               <IonImg src="https://asset.kompas.com/crops/K3yRtga4WYTNBr2kHKNe8GILyn0=/0x0:4044x2696/375x240/data/photo/2021/03/19/6054801497f35.jpg"></IonImg>
@@ -103,7 +107,7 @@ const Home: React.FC = () => {
               </IonLabel>
             </IonCol>
           </IonCard>
-        </IonGrid>
+        </IonGrid> */}
       </IonContent>
     </IonPage>
   );

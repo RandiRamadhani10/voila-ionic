@@ -27,71 +27,73 @@ const DetailOrder: React.FC = () => {
               </div>
             </IonCol>
           </IonRow>
-          <IonRow>
-            <IonCol>
-              <div id="items">
-                <div id="title">
+          <IonRow id="list">
+            <IonCol id="items">
+              <IonRow>
+                <IonCol size="7">
                   <p>Sate Kambing</p>
-                  <p>Rp.30.000</p>
-                </div>
-                <div id="count">
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={remove} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                  <p>2</p>
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={add} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                </div>
-              </div>
+                </IonCol>
+                <IonCol>
+                  <p id="end">Rp.20.000</p>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol>
+                  <button id="button">
+                    <IonImg src="https://pic.onlinewebfonts.com/svg/img_89918.png"></IonImg>
+                  </button>
+                </IonCol>
+                <IonCol className="ion-align-self-center">
+                  <span>3</span>
+                </IonCol>
+                <IonCol>
+                  <button id="button">
+                    <IonImg src="https://pic.onlinewebfonts.com/svg/img_27125.png"></IonImg>
+                  </button>
+                </IonCol>
+                <IonCol size="8"></IonCol>
+              </IonRow>
             </IonCol>
           </IonRow>
-          <IonRow>
-            <IonCol>
-              <div id="items">
-                <div id="title">
-                  <p>Es Teh</p>
-                  <p>Rp.5000</p>
-                </div>
-                <div id="count">
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={remove} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                  <p>3</p>
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={add} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                </div>
-              </div>
+          <IonRow id="list">
+            <IonCol id="items">
+              <IonRow>
+                <IonCol size="7">
+                  <p>Es teh</p>
+                </IonCol>
+                <IonCol>
+                  <p id="end">Rp.30.000</p>
+                </IonCol>
+              </IonRow>
+              <IonRow>
+                <IonCol>
+                  <button id="button">
+                    <IonImg src="https://pic.onlinewebfonts.com/svg/img_89918.png"></IonImg>
+                  </button>
+                </IonCol>
+                <IonCol className="ion-align-self-center">
+                  <span>3</span>
+                </IonCol>
+                <IonCol>
+                  <button id="button">
+                    <IonImg src="https://pic.onlinewebfonts.com/svg/img_27125.png"></IonImg>
+                  </button>
+                </IonCol>
+                <IonCol size="8"></IonCol>
+              </IonRow>
             </IonCol>
           </IonRow>
-          <IonRow>
-            <IonCol>
-              <div id="items">
-                <div id="title">
-                  <p>Gulai Kambing</p>
-                  <p>Rp.20.000</p>
-                </div>
-                <div id="count">
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={remove} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                  <p>1</p>
-                  <IonButton style={{ margin: 0 }}>
-                    <IonIcon icon={add} size="small" slot="icon-only"></IonIcon>
-                  </IonButton>
-                </div>
-              </div>
-            </IonCol>
-          </IonRow>
-          <IonRow id='last'>
-            <IonCol>
-              <div id="items">
-                <div id="title">
+
+          <IonRow id="last">
+            <IonCol id="items">
+              <IonRow>
+                <IonCol size="7">
                   <p>Total</p>
-                  <p>Rp.65.000</p>
-                </div>
-              </div>
+                </IonCol>
+                <IonCol>
+                  <p id="end">Rp.50.000</p>
+                </IonCol>
+              </IonRow>
             </IonCol>
           </IonRow>
         </IonGrid>

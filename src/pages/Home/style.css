@@ -12,19 +12,70 @@
   border-radius: 20px;
   margin: 10px 5px 10px 5px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+#order > span {
+  color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 #history {
   background-color: #ff9f1c;
   border-radius: 20px;
   margin: 10px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+#history > span {
+  color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 #outlet {
   background-color: #db3a34;
   border-radius: 20px;
   margin: 10px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+#outlet > span {
+  color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 #account {
   background-color: #014f86;
   border-radius: 20px;
   margin: 10px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+#account > span {
+  color: black;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#img {
+  width: 100px;
+  height: 100px;
 }

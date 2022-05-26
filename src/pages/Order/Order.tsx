@@ -30,26 +30,26 @@ const Order: React.FC = () => {
                     <IonRow>
                       <IonGrid>
                         <IonRow>
-                          <IonCol style={{ width: "30%" }} className="ion-align-self-center">
+                          <IonCol size="4" style={{ width: "30%" }} className="ion-align-self-center">
                             <h3>Sate Kambing</h3>
                           </IonCol>
-                          <IonRow>
-                            <IonCol className="ion-align-self-center">
-                              <IonButtons color="danger" class="buttonChange">
-                                <span>
-                                  <IonIcon icon={remove} size="small" slot="icon-only"></IonIcon>
-                                </span>
-                              </IonButtons>
-                            </IonCol>
-                            <IonCol className="ion-align-self-center">Rp.30.000.00</IonCol>
-                            <IonCol className="ion-align-self-center">
-                              <IonButtons color="danger" class="buttonChange">
-                                <span>
-                                  <IonIcon icon={add} size="small" slot="icon-only"></IonIcon>
-                                </span>
-                              </IonButtons>
-                            </IonCol>
-                          </IonRow>
+                          <IonCol>
+                            <IonRow className="ion-align-self-center">
+                              <IonCol>
+                                <button id="button">
+                                  <IonImg src="https://pic.onlinewebfonts.com/svg/img_89918.png"></IonImg>
+                                </button>
+                              </IonCol>
+                              <IonCol className="ion-align-self-center">
+                                <span>Rp.30.000</span>
+                              </IonCol>
+                              <IonCol>
+                                <button id="button">
+                                  <IonImg src="https://pic.onlinewebfonts.com/svg/img_27125.png"></IonImg>
+                                </button>
+                              </IonCol>
+                            </IonRow>
+                          </IonCol>
                         </IonRow>
                       </IonGrid>
                     </IonRow>
@@ -64,26 +64,26 @@ const Order: React.FC = () => {
                     <IonRow>
                       <IonGrid>
                         <IonRow>
-                          <IonCol style={{ width: "30%" }} className="ion-align-self-center">
+                          <IonCol size="4" style={{ width: "30%" }} className="ion-align-self-center">
                             <h3>Gulai Kambing</h3>
                           </IonCol>
-                          <IonRow>
-                            <IonCol className="ion-align-self-center">
-                              <IonButtons color="danger" class="buttonChange">
-                                <span>
-                                  <IonIcon icon={remove} size="small" slot="icon-only"></IonIcon>
-                                </span>
-                              </IonButtons>
-                            </IonCol>
-                            <IonCol className="ion-align-self-center">Rp.20.000.00</IonCol>
-                            <IonCol className="ion-align-self-center">
-                              <IonButtons color="danger" class="buttonChange">
-                                <span>
-                                  <IonIcon icon={add} size="small" slot="icon-only"></IonIcon>
-                                </span>
-                              </IonButtons>
-                            </IonCol>
-                          </IonRow>
+                          <IonCol>
+                            <IonRow className="ion-align-self-center">
+                              <IonCol>
+                                <button id="button">
+                                  <IonImg src="https://pic.onlinewebfonts.com/svg/img_89918.png"></IonImg>
+                                </button>
+                              </IonCol>
+                              <IonCol className="ion-align-self-center">
+                                <span>Rp.30.000</span>
+                              </IonCol>
+                              <IonCol>
+                                <button id="button">
+                                  <IonImg src="https://pic.onlinewebfonts.com/svg/img_27125.png"></IonImg>
+                                </button>
+                              </IonCol>
+                            </IonRow>
+                          </IonCol>
                         </IonRow>
                       </IonGrid>
                     </IonRow>

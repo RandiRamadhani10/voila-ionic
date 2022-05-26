@@ -18,16 +18,7 @@
 #location > span {
   margin: 5px;
 }
-#items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 15px 10px 15px;
-  background-color: #262626;
-  border-radius: 20px;
-  font-size: 20px;
-}
+
 #count {
   display: flex;
   flex-direction: row;
@@ -37,14 +28,11 @@
   border-radius: 20px;
   font-size: 20px;
 }
-#title {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 20px;
-  font-size: 20px;
+#items {
+  background-color: #262626;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 #count > p {
   margin: 0px 20px 0px 20px;
@@ -56,4 +44,16 @@
 }
 #last {
   margin-bottom: 60px;
+}
+#list {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#end {
+  text-align: end;
 }
